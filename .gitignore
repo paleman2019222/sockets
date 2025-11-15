@@ -1,0 +1,66 @@
+# Node
+# dependencies
+node_modules/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build / output
+dist/
+build/
+.next/
+.out/
+.nuxt/
+
+# coverage
+coverage/
+.nyc_output/
+
+# caches
+.cache/
+.parcel-cache/
+.pnpm-store/
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Yarn v2 / Plug'n'Play
+.pnp.cjs
+.pnp.js
+.pnp/
+
+# ESLint cache
+.eslintcache
+
+# Optional: secrets and keys
+*.pem
+*.key
+*.crt
+
+# Misc
+*.tgz
+*.log
+
+# End of .gitignore
